@@ -1,0 +1,25 @@
+<?php
+
+return [
+    'Sign in' => 'تسجيل الدخول',
+    'Sign up' => 'إنشاء حساب',
+    'Home' => 'الرئيسية',
+    'Registration Form' => 'نموذج التسجيل',
+    'Full Name' => 'الاسم الكامل',
+    'User Name' => 'اسم المستخدم',
+    'Birth date' => 'تاريخ الميلاد',
+    'Phone number' => 'رقم الهاتف',
+    'Get Actors' => 'الممثلين',
+    'Address' => 'العنوان',
+    'Email' => 'البريد الإلكتروني',
+    'Password' => 'كلمة المرور',
+    'Confirm Password' => 'تأكيد كلمة المرور',
+    'User image' => 'صورة المستخدم',
+    'Register' => 'تسجيل',
+    'Reset' => 'إعادة تعيين',
+    'By creating an account you agree to our' => 'عن طريق إنشاء حساب، فإنك توافق على',
+    'Terms & Privacy' => 'الشروط والخصوصية',
+    'Language'=>'اللغه',
+    'English'=>'الانجليزية',
+    'Arabic'=>'العربية',
+];

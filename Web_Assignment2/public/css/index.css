@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+input {
+    font-weight: 500;
+    font-size: medium;
+    border-radius: 5px;
+    width: 260px;
+    height: 35px;
+    outline: none;
+    border: 1px solid #ccc;
+}
+input:focus,
+input:hover {
+    background-color: hsl(185, 41%, 84%);
+    outline: none;
+    border: 2px solid hsl(172, 67%, 45%);
+}
+
+.left {
+    width: 60%;
+    height: 100vh;
+    float: left;
+    padding: 150px 180px;
+    transform: translate(-50px, -100px);
+}
+
+body {
+    background-color: hsl(185, 41%, 84%);
+    overflow-x: hidden;
+}
+
+.container1 {
+    position: absolute;
+    width: 1000px;
+    height: 1400px;
+    background-color: white;
+    top: 60px;
+    left:250px;
+    z-index: 1;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 100px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+h1 {
+    font-size: 30px;
+    color: hsl(183, 100%, 15%);
+    transform: translate(300px, 20px);
+}
+
+.left label {
+    font-weight: 500;
+    font-size: large;
+    color: hsl(183, 100%, 15%);
+}
+
+.right {
+    transform: translate(0px, -150px);
+    width: 40%;
+    height: 100vh;
+    float: right;
+    padding: 230px 0px;
+}
+
+.right label {
+    font-weight: 500;
+    font-size: large;
+    color: hsl(183, 100%, 15%);
+}
+.Register {
+    background-color: white;
+    font-weight: 700;
+    margin-top: 30px;
+    border-radius: 6px;
+    padding: 4px 20px;
+    font-size: 12px;
+    width: 100px;
+}
+
+.reset {
+    background-color: white;
+    font-weight: 700;
+    margin-top: 20px;
+    border-radius: 6px;
+    padding: 4px 20px;
+    font-size: 12px;
+    margin-left: 50px;
+    width: 100px;
+}
+.Register:hover {
+    background-color: darkgray;
+    transform: scale(1.1);
+}
+.reset:hover {
+    background-color: darkgray;
+    transform: scale(1.1);
+}
+span {
+    color: rgb(255 4 4);
+    font-weight: 400;
+    font-size: 12px;
+}
+
+#img {
+    background-color: white;
+    border: none;
+}
+
+#get-actors-button {
+    background-color: hsl(183, 100%, 15%);
+    width: 100px;
+    height: 25px;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    transform: translateY(-15px);
+}
+#get-actors-button:hover
+{
+    background-color: darkgray;
+
+}
+.container1 {
+    color: black;
+}
+
+.Register,
+.reset {
+    background-color: hsl(183, 100%, 15%);
+    width: 130x;
+    height: 40px;
+    color: white;
+    border-radius: 5px;
+    border: none;
+}
+
+#container{
+    width: 1000%;
+}
+#container p{
+    color: black;
+}
+#image,#image:hover,#image:focus
+{
+    background-color: white;
+    border: none;
+}
